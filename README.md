@@ -1,24 +1,7 @@
-# t
+Semester 3 Final Exam
+By: Moses S Musoki
+FrontEnd Engineering
 
-## Project setup
-```
-yarn install
-```
+Collaborators: Iykeevans
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+netlify Link: https://csb-n9mush.netlify.app/
