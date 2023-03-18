@@ -1,0 +1,169 @@
+/* General */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: rgb(4, 16, 45);
+  --blue: rgb(28, 94, 151);
+  --deepblue: rgb(137, 162, 181);
+  --white: #ffffff;
+  --black: rgb(0, 0, 0);
+  --grey: grey;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--bg);
+  text-align: center;
+}
+
+section {
+  padding: 1.5em;
+  margin: 1em 5em;
+  box-shadow: 0 0 3px 2px var(--blue);
+}
+
+.title {
+  color: var(--deepblue);
+  text-decoration: none;
+}
+
+/* Nav */
+.nav-container {
+  display: flex;
+  background-color: var(--blue);
+  padding: 0.5em;
+  place-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  margin-left: 4em;
+}
+
+.nav {
+  margin-right: 5em;
+  margin-top: 48px;
+}
+
+.link {
+  font-size: 24px;
+  text-decoration: none;
+  padding: 1em;
+  color: var(--grey);
+}
+
+.link:hover {
+  font-weight: bold;
+}
+
+/* 404 page */
+.page-not-found {
+  padding: 5em;
+}
+
+.page-not-found h1 {
+  font-size: clamp(10rem, 40vmin, 10em);
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2rem;
+  text-shadow: 10px 10px 5px var(--grey);
+  color: var(--deepblue);
+}
+
+.page-not-found h2 {
+  font-weight: 500;
+  color: var(--grey);
+}
+
+.page-not-found p {
+  font-weight: 100;
+  color: var(--grey);
+  margin: 0.5em;
+}
+
+/* Counter */
+.count {
+  color: var(--deepblue);
+  margin: 1em;
+  padding: 10px;
+  border: 1px solid var(--deepblue);
+  border-radius: 8px;
+}
+
+input {
+  border: 1px solid var(--deepblue);
+  padding: 10px;
+  width: 120px;
+  margin: 20px 0 20px 0;
+  font-size: 16px;
+  color: var(--deepblue);
+}
+
+.input-field {
+  border-radius: 10px 0 0 10px;
+  outline: none;
+}
+
+.submit {
+  border-radius: 0 10px 10px 0;
+  margin-left: -4px;
+  border-left: 1px solid #fff;
+  font-weight: bolder;
+  width: 100px;
+  padding: 10px;
+  color: var(--deepblue);
+  background-color: var(--blue);
+}
+.submit:hover {
+  transition: all 0.4s;
+  box-shadow: 0 0 3px 2px var(--grey);
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  padding: 1em;
+  margin: 0.8em;
+  cursor: pointer;
+  border: none;
+  border-radius: 1em;
+  font-size: 1em;
+  text-transform: uppercase;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.button {
+  background-color: rgb(57, 137, 57);
+  color: var(--white);
+}
+
+.reset {
+  background-color: red;
+  color: var(--white);
+}
+
+/* Home page*/
+.intro {
+  color: var(--deepblue);
+  margin-right: 1em;
+}
+
+.info h3 {
+  font-weight: 500;
+  color: var(--grey);
+  margin: 1em;
+}
+
+.info p {
+  font-weight: 100;
+  color: var(--grey);
+  margin: 0.5em;
+}
